@@ -1,3 +1,58 @@
 @charset "UTF-8";
 
 @import "../../../node_modules/bootstrap";
+
+.example {
+	border: solid #f8f9fa;
+	border-width: 0.2rem 0;
+	
+	padding: 1rem;
+}
+
+@media (min-width: 576px) {
+	.example {
+		border-width: 0.2rem;
+		
+		margin-left:  0;
+		margin-right: 0;
+		padding: 1.5rem;
+	}
+}
+
+.form-password {
+	position: relative;
+}
+
+.form-password > input[type="password"] {
+	padding-right: 4.2rem;
+}
+
+.form-password-btn {
+	font-size: 12px;
+	transform: translate(0, -50%);
+	
+	position: absolute;
+	top: 50%;
+	right: 7px;
+	
+	padding: 2px 8px;
+}
+
+.custom-select:focus {
+	color: #495057;
+	background-color: #fff;
+	
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+	border-color: #b9d0f8;
+	outline: 0;
+}
+
+/* --- */
+
+/* .card-title {
+	font-weight: 300;
+} */
+
+/* .form-group > label {
+	font-weight: 500;
+} */
