@@ -9,8 +9,10 @@
     "gulp-babel": "^7.0.1"
   },
   "dependencies": {
+    "bookshelf": "^0.13.3",
     "commander": "^2.15.1",
     "express": "^4.16.3",
+    "knex": "^0.14.6",
     "vhost": "^3.0.2"
   }
 }
